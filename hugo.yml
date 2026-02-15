@@ -2,6 +2,10 @@ baseURL: "https://mimoctrl745.netlify.app/"
 languageCode: en-us
 title: BD电机控制
 theme: PaperMod
+cover:
+    image: img/motor.jpg
+    alt: 'This is a post image'
+    caption: 'This is the caption'
 
 params:
 
