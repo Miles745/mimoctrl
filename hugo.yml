@@ -7,16 +7,7 @@ params:
 
   homeInfoParams:
     Title: "Welcome to BD Motor Control"
-    Content: "This is the official documentation for BD Motor Control."
-  
-  profileMode:
-    enabled: true
-    title: "你的标题"
-    subtitle: "你的介绍文字"
-    imageUrl: "/img/motor.jpg"
-    imageTitle: "home"
-    imageWidth: 220
-    imageHeight: 220
+    Content: "This is the official blog for BD absolute Motor Control."
 
   socialIcons:
     - name: GitHub
