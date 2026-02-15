@@ -3,6 +3,9 @@ languageCode: en-us
 title: BD电机控制
 theme: PaperMod
 
+# Better word count / reading time for Chinese
+hasCJKLanguage: true
+
 params:
 
   homeInfoParams:
@@ -29,6 +32,9 @@ params:
   ShowPostNavigation: true
 
   math: true
+
+  # Use a CJK-friendly system font stack to avoid mixed Latin/CJK fonts
+  cjkFont: true
 
 menu:
   main:

@@ -18,3 +18,14 @@
   });
 </script>
 {{- end -}}
+
+{{- /* Optional: prefer a CJK-friendly system font stack to reduce mixed font rendering */ -}}
+{{- if or .Params.cjkFont site.Params.cjkFont -}}
+<style>
+  body, button, input, textarea {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+      "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC",
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+</style>
+{{- end -}}
