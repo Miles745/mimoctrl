@@ -23,19 +23,18 @@
 &lt;/ul&gt;
 &lt;p&gt;当发电侧的“等效可整流直流电压”超过当前母线电压（加上器件压降/裕量）时，二极管开始导通并回灌。&lt;/p&gt;
 &lt;p&gt;常用近似（忽略压降）：三相正弦电压经六脉波整流的平均直流电压&lt;/p&gt;
-&lt;p&gt;$$
-V_{rect} \approx 1.35, V_{LL,rms}
-$$&lt;/p&gt;
-&lt;p&gt;阈值条件（开始显著回灌）：&lt;/p&gt;
-&lt;p&gt;$$
+$$
+V_{rect} \approx 1.35\, V_{LL,rms}
+$$&lt;p&gt;阈值条件（开始显著回灌）：&lt;/p&gt;
+$$
 V_{rect} \gtrsim V_{dc}
-$$&lt;/p&gt;
-&lt;p&gt;因此&lt;/p&gt;
-&lt;p&gt;$$
+$$&lt;p&gt;因此&lt;/p&gt;
+$$
 V_{LL,rms} \gtrsim \frac{V_{dc}}{1.35}
-$$&lt;/p&gt;
-&lt;p&gt;把 $V_{LL,rms}$ 与 $k_e$ 的定义对应起来即可得到 $\omega_{th}$（不同厂家 $k_e$ 定义不同，需先统一单位）。&lt;/p&gt;
+$$&lt;p&gt;把 $V_{LL,rms}$ 与 $k_e$ 的定义对应起来即可得到 $\omega_{th}$（不同厂家 $k_e$ 定义不同，需先统一单位）。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="3-制动扭矩先上升后下降的统一解释dcm--ccm--受限区"&gt;3. “制动扭矩先上升后下降”的统一解释（DCM → CCM → 受限区）&lt;/h2&gt;
-&lt;p&gt;实际波形通常可分为两个阶段：&lt;/p&gt;</description></item><item><title>Second</title><link>https://mimoctrl745.netlify.app/posts/second/</link><pubDate>Sun, 15 Feb 2026 16:31:20 +0800</pubDate><guid>https://mimoctrl745.netlify.app/posts/second/</guid><description>&lt;h1 id="this-is-a-heading-1"&gt;This is a heading 1&lt;/h1&gt;
+&lt;p&gt;实际波形通常可分为两个阶段：&lt;/p&gt;
+&lt;h3 id="31-阶段-a电流断续导通dcm扭矩随速度上升而上升"&gt;3.1 阶段 A：电流断续导通（DCM）——扭矩随速度上升而上升&lt;/h3&gt;
+&lt;p&gt;刚超过阈值时：&lt;/p&gt;</description></item><item><title>Second</title><link>https://mimoctrl745.netlify.app/posts/second/</link><pubDate>Sun, 15 Feb 2026 16:31:20 +0800</pubDate><guid>https://mimoctrl745.netlify.app/posts/second/</guid><description>&lt;h1 id="this-is-a-heading-1"&gt;This is a heading 1&lt;/h1&gt;
 &lt;h2 id="this-is-a-heading-2"&gt;This is a heading 2&lt;/h2&gt;</description></item></channel></rss>
