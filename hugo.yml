@@ -1,0 +1,43 @@
+baseURL: ""
+languageCode: en-us
+title: BD电机控制
+theme: PaperMod
+
+params:
+
+  homeInfoParams:
+    Title: "Welcome to BD Motor Control"
+    Content: "This is the official documentation for BD Motor Control."
+  socialIcons:
+    - name: GitHub
+      url: "https://github.com/"
+    - name: Twitter
+      url: "https://twitter.com/"
+    - name: Facebook
+      url: "https://facebook.com/"
+
+  cover: 
+    linkFullImage: true
+
+  ShowBreadcrumb: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavigation: true
+
+menu:
+  main:
+  - identifier: categories
+    name: Categories
+    url: /categories/
+    weight: 10
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 20
+  - identifier: archives
+    name: Archives
+    url: /archives/
+    weight: 30
