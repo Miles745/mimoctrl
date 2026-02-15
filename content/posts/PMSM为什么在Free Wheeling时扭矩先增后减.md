@@ -2,10 +2,10 @@
 date: 2026-02-15T16:31:20+08:00
 draft: false
 title: 'PMSM为什么在Free Wheeling时扭矩先增后减'
-cover:
-    image: img/SpdTrq6SO.png
-    alt: 'This is a post image'
-    caption: 'Speed & torque curve under Free-Wheeling'
+#cover:
+#    image: img/SpdTrq6SO.png
+#    alt: 'This is a post image'
+#    caption: 'Speed & torque curve under Free-Wheeling'
 
 tags: ["pmsm", "tech"]
 categories: ["tech"]
