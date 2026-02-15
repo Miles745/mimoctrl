@@ -2,16 +2,22 @@ baseURL: "https://mimoctrl745.netlify.app/"
 languageCode: en-us
 title: BD电机控制
 theme: PaperMod
-cover:
-    image: img/motor.jpg
-    alt: 'This is a post image'
-    caption: 'This is the caption'
 
 params:
 
   homeInfoParams:
     Title: "Welcome to BD Motor Control"
     Content: "This is the official documentation for BD Motor Control."
+  
+  profileMode:
+    enabled: true
+    title: "你的标题"
+    subtitle: "你的介绍文字"
+    imageUrl: "/img/motor.jpg"
+    imageTitle: "home"
+    imageWidth: 220
+    imageHeight: 220
+
   socialIcons:
     - name: GitHub
       url: "https://github.com/"
@@ -30,6 +36,8 @@ params:
   ShowShareButtons: true
 
   ShowPostNavigation: true
+
+  math: true
 
 menu:
   main:
