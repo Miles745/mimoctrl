@@ -3,7 +3,7 @@ date: 2026-02-15T16:31:20+08:00
 draft: false
 title: 'PMSM为什么在Free Wheeling时扭矩先增后减'
 cover:
-    image: img/motor.jpg
+    image: img/SpdTrq6SO.png
     alt: 'This is a post image'
     caption: 'This is the caption'
 
@@ -11,9 +11,6 @@ tags: ["pmsm", "tech"]
 categories: ["tech"]
 ---
 > 场景：永磁同步电机（PMSM）在高速旋转时从正常控制（PWM/FOC）切到 **free-wheeling / coast**（停止主动调制，功率器件不再主动导通）。担忧点是反电势导致母线电容被回灌，引发过压；同时观察到制动（负）扭矩在高速段可能 **先上升后下降**。
-```md
-![替代文字](img/SpdTrq6SO.png "可选标题")
-```
 ---
 
 ## 1. Free-wheeling 时为什么仍然会有扭矩
